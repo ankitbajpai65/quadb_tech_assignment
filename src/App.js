@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import './index.css'
 import { Route, Routes } from 'react-router-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
