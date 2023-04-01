@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 import '../styles/Book_ticket.css';
 
-const Book_ticket = () => {
+const Book_Ticket = () => {
     const location = useLocation();
     console.log(location.state.location.state.val);
     return (
@@ -31,4 +31,4 @@ const Book_ticket = () => {
     )
 }
 
-export default Book_ticket
+export default Book_Ticket;

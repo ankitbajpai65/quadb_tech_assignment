@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { useLocation, Link, useNavigate } from 'react-router-dom';
 import '../styles/Item_details.css';
 
-const Item_details = () => {
+const Item_Details = () => {
     const location = useLocation();
     const navigate = useNavigate();
     const myStyle = {
@@ -47,4 +47,4 @@ const Item_details = () => {
     )
 }
 
-export default Item_details
+export default Item_Details

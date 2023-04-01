@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { Route, Routes } from 'react-router-dom';
 import Card from './Card'
 import '../styles/Card.css';
-import Item_details from './Item_details';
 const Home = () => {
     const [item, setItem] = useState([])
     useEffect(() => {

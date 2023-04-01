@@ -5,8 +5,8 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
-import Item_details from "./Components/Item_details";
-import Book_ticket from "./Components/Book_ticket";
+import Item_Details from "./Components/Item_Details";
+import Book_Ticket from "./Components/Book_Ticket";
 
 function App() {
   return (
@@ -15,8 +15,8 @@ function App() {
       {/* <Home /> */}
       <Routes>
         <Route index element={<Home />} />
-        <Route path="/item_details" element={<Item_details />} />
-        <Route path="/book_ticket" element={<Book_ticket />} />
+        <Route path="/item_details" element={<Item_Details />} />
+        <Route path="/book_ticket" element={<Book_Ticket />} />
       </Routes>
       <Footer />
     </div>
