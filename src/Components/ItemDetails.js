@@ -24,9 +24,9 @@ const ItemDetails = () => {
     return (
         <div className="container-fluid item_details_div">
             <div className="row d-flex align-items-center">
-                <div className="offset-1 col-3 imageDiv mt-5" style={myStyle}>
+                <div className="offset-md-1 col-md-3 imageDiv mt-5" style={myStyle}>
                 </div>
-                <div className="offset-1 col-6 infoDiv text-white mt-5">
+                <div className="offset-md-1 col-md-6 infoDiv text-white mt-5">
                     <h1 className="mb-5">{location.state.val.show.name}</h1>
                     <p id="summary">
                         <b>Summary : </b> {location.state.val.show.summary}

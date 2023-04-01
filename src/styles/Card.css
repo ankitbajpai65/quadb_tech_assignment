@@ -5,7 +5,8 @@
 }
 
 .cardDiv {
-    height: 68rem;
+    min-height: 68rem;
+    max-height: max-content;
     background: #060D17;
     padding-top: 7rem;
 }
@@ -16,6 +17,7 @@
     width: 16rem;
     position: relative;
     border: none;
+    margin-bottom: 2rem;
 }
 
 .card img {

@@ -26,3 +26,11 @@
 .scrolled {
     color: black !important;
 }
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 600px) {
+    .loginBtn {
+        width: 5rem;
+    }
+}

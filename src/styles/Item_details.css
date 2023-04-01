@@ -47,3 +47,23 @@
     color: #afafaf;
     border: 1px solid #afafaf;
 }
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 768px) {
+    .item_details_div {
+        height: 80rem;
+    }
+
+    .item_details_div .row {
+        padding-top: 3rem;
+    }
+
+    .imageDiv {
+        height: 45%;
+    }
+
+    .infoDiv {
+        height: 45%;
+    }
+}

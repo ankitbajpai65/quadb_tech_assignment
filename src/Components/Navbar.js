@@ -21,10 +21,10 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div>
-                <form className="d-flex offset-1 col-3" role="search">
+                <form className="d-flex offset-md-1 col-3" role="search">
                     <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                 </form>
-                <button className="btn btn-primary offset-3 col-1">Login</button>
+                <button className="btn btn-primary offset-lg-3 col-1 loginBtn">Login</button>
             </div>
         </nav>
     )
